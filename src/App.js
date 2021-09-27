@@ -4,9 +4,9 @@ import { useState } from "react";
 var stateFoodList = {
   punjab: [
     "4/5 Sarso ka Saag and Makki di Roti",
-    "3/5Amritsari Kulcha",
-    "4/5Chhole-Bhature",
-    "5/5Lassi"
+    "3/5 Amritsari Kulcha",
+    "4/5 Chhole-Bhature",
+    "5/5 Lassi"
   ],
   maharashtra: [
     "5/5 Kaju Kothimbir Vadi",
