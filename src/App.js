@@ -3,26 +3,37 @@ import { useState } from "react";
 
 var stateFoodList = {
   punjab: [
-    "Sarso ka Saag and Makki di Roti",
-    "Amritsari Kulcha",
-    "Chhole-Bhature",
-    "Lassi"
+    "4/5 Sarso ka Saag and Makki di Roti",
+    "3/5Amritsari Kulcha",
+    "4/5Chhole-Bhature",
+    "5/5Lassi"
   ],
   maharashtra: [
-    "Kaju Kothimbir Vadi",
-    "Pav Bhaji",
-    "Misal Pav",
-    "Puran Poli",
-    "Batata Vada"
+    "5/5 Kaju Kothimbir Vadi",
+    "4/5 Pav Bhaji",
+    "4/5 Misal Pav",
+    "3/5 Puran Poli",
+    "4/5 Batata Vada"
   ],
-  westBengal: ["Kathi Rolls", "Rasgullas", "Ilish Maach", "Kosha Mangsho"],
-  gujarat: ["Khakra", "Thepla", "Fafda-jalebi", "Khandvi", "Gathiya"],
-  kerela: ["Idiyappam with curry", "Erissery", "Appam with ishtu"],
+  westBengal: [
+    "3/5 Kathi Rolls",
+    "4/5 Rasgullas",
+    "4/5 Ilish Maach",
+    "5/5 Kosha Mangsho"
+  ],
+  gujarat: [
+    "5/5 Khakra",
+    "3/5 Thepla",
+    "4/5 Fafda-jalebi",
+    "5/5 Khandvi",
+    "4/5 Gathiya"
+  ],
+  kerela: ["4/5 Idiyappam with curry", "3/5 Erissery", "4/5 Appam with ishtu"],
   rajasthan: [
-    "Gatte ki subzi",
-    "Bajra ki roti with lasun chutney",
-    "Onion kachori",
-    "Ghevar"
+    "4/5 Gatte ki subzi",
+    "5/5 Bajra ki roti with lasun chutney",
+    "5/5 Onion kachori",
+    "4/5 Ghevar"
   ]
 };
 
